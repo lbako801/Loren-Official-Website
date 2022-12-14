@@ -5,7 +5,7 @@
 /*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
 @font-face {
     font-family: 'Radiotechnika';
-    src: url('/../assets/fonts/Radiotechnika-2.0.otf') format('otf');
+    src: url('/assets/fonts/Radiotechnika-2.0.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
     animation: glitch 1s linear infinite alternate-reverse;
 }
 
-/*ANIMATIONS FOR GLITCH EFFECT ON left-section*/
+/*ANIMATIONS FOR GLITCH EFFECT ON left-section
 @keyframes glitch{
     2%,64%{
       transform: translate(2px,0) skew(0deg);
@@ -69,7 +69,7 @@
     62%{
       transform: translate(-22px,5px) skew(21deg); 
     }
-}
+}*/
 
 .nav {
     font-family: 'Radiotechnika';
@@ -81,11 +81,12 @@
    font-size: 15vh;
    
 }
-#work-nav,#about-nav,#contact.nav {
-    margin: 0px 0px 20px 0px;
+
+.nav>li {
+    margin: 0px 0px 50px 0px;
 }
-#work-nav:hover,#about-nav:hover,#contact-nav:hover {
-    content: '>';
+
+.nav>li:hover:before {
     color:#49fc03 ;
-    text-decoration: line-through;
+    content: ">";
 }
