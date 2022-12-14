@@ -5,7 +5,7 @@
 /*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
 @font-face {
     font-family: 'Radiotechnika';
-    src: url('/assets/fonts/Radiotechnika-2.0.otf') format('otf');
+    src: url('../assets/fonts/Radiotechnika-2.0.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
