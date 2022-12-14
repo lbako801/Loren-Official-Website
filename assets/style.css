@@ -44,12 +44,22 @@
 
 .nav>li:hover {
     color: #49fc03;
+    text-shadow: 2px 3px 13px #53a330;
     animation-name:terminal-blink;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  opacity: 1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 1;
 }
 
+#about-nav {
+    margin-right: 30px;
+}
+
+#contact-nav {
+    margin-right: 6
+0px;
+}
+/*ANIMATION FOR TERMINAL BLINK EFFECT*/
 @keyframes terminal-blink {
     0% {
     opacity: 1;
