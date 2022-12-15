@@ -12,15 +12,17 @@
 
 .left-section {
     font-family: 'Radiotechnika';
-    color: #c1c2c0;
+    color: #49fc03;
+    text-shadow: 2px 3px 13px #53a330; 
     display: flex;
     position: absolute;
     margin-top: 50px;
     flex-direction: column;
     align-items: flex-start;
     font-size: 2vh;
-    margin-left: 50px;
-}
+    margin-left: 3vw;
+    
+} 
 
 .nav {
     font-family: 'Radiotechnika';
@@ -30,11 +32,10 @@
    flex-direction: column;
    align-items: flex-end;
    font-size: 15vh;
-   
 }
 
 .nav>li {
-    margin: 0px 0px 50px 0px;
+    margin: 0px 3vw 5vh 0px;
 }
 
 .nav>li:hover:before {
@@ -77,3 +78,4 @@
     opacity: 0.6;
    }
 }
+  
