@@ -3,24 +3,25 @@
     scroll-snap-type: y mandatory; 
 }
 
-/* width */
+/*STYLING FOR SCROLLBAR*/
+
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 8px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px #040404;
     border-radius: 10px;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #49fc03;
-    border-radius:50px;
+    border-radius:5px;
   }
-
-/*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
+/*IMPORTIN
+G LOCALLY HOSTED FONT TO WEBSITE*/
 
 @font-face {
     font-family: 'Radiotechnika';
@@ -173,5 +174,4 @@ a:hover {
     height:98vh;
     scroll-snap-align: start;
     margin-top: 3%;
-
 }
