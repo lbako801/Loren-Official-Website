@@ -6,38 +6,52 @@
 @font-face {
     font-family: 'Radiotechnika';
     src: url('../../assets/fonts/Radiotechnika-2.0.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
 }
 
-.left-section {
+.grid-container-landing {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
+    color:#c1c2c0;
+}
+
+a:hover {
+    color: #49fc03;
+}
+
+.left-landing {
     font-family: 'Radiotechnika';
     color: #49fc03;
-    text-shadow: 2px 3px 13px #53a330; 
-    display: flex;
-    position: absolute;
-    margin-top: 50px;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 2vh;
-    margin-left: 3vw;
-    
-} 
+    font-size: 2.5vw;
+    text-shadow: 2px 3px 13px #53a330;   
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
 
-.nav {
-    font-family: 'Radiotechnika';
+.right-landing {
+   font-family: 'Radiotechnika';
    color: #c1c2c0; 
    list-style-type: none;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   font-size: 15vh;
+   display: grid;
+   justify-content: end;
+   align-content: center;
+   
 }
 
-.nav>li {
-    margin: 0px 3vw 5vh 0px;
+.nav {
+    display: grid;
+    justify-items: end;
+    font-size: 7vw;
+    margin-right: 60px;
+    row-gap: 10%;
 }
-
 .nav>li:hover:before {
     color:#49fc03 ;
     content: ">";
@@ -53,12 +67,11 @@
 }
 
 #about-nav {
-    margin-right: 30px;
+
 }
 
 #contact-nav {
-    margin-right: 6
-0px;
+
 }
 /*ANIMATION FOR TERMINAL BLINK EFFECT*/
 @keyframes terminal-blink {
@@ -78,4 +91,53 @@
     opacity: 0.6;
    }
 }
-  
+
+/*CODE FOR WORK SECTION*/
+
+.grid-container-work{
+    font-family: 'Radiotechnika';
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 50% 50%;
+    font-size: 5vw;
+    color: #49fc03;
+    text-shadow: 2px 3px 13px #53a330;
+    animation-name:terminal-blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    width: 100vw;
+    height:100vh;
+}
+/*CODE FOR ABOUT SECTION*/
+.grid-container-about {
+    font-family: 'Radiotechnika';
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 50% 50%;
+    font-size: 5vw;
+    color: #49fc03;
+    text-shadow: 2px 3px 13px #53a330;
+    animation-name:terminal-blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    width: 100vw;
+    height:100vh;
+}
+/*CODE FOR CONTACT SECTION*/
+.grid-container-contact {
+    font-family: 'Radiotechnika';
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 50% 50%;
+    font-size: 5vw;
+    color: #49fc03;
+    text-shadow: 2px 3px 13px #53a330;
+    animation-name:terminal-blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    width: 100vw;
+    height:100vh;
+}
