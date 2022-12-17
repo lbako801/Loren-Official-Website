@@ -6,22 +6,22 @@
 /*STYLING FOR SCROLLBAR*/
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 0.35rem;
   }
   
-  /* Track */
+  /*SCROLL TRACK*/
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #040404;
     border-radius: 10px;
   }
   
-  /* Handle */
+  /*SCROLL THUMB*/
   ::-webkit-scrollbar-thumb {
     background: #49fc03;
     border-radius:5px;
-  }
-/*IMPORTIN
-G LOCALLY HOSTED FONT TO WEBSITE*/
+}
+
+/*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
 
 @font-face {
     font-family: 'Radiotechnika';
@@ -54,6 +54,7 @@ a:hover {
     display: grid;
     justify-content: center;
     align-content: center;
+    margin-left: 3rem;
 }
 
 .right-landing {
@@ -63,16 +64,15 @@ a:hover {
    display: grid;
    justify-content: end;
    align-content: center;
-   
 }
 
 .nav {
     display: grid;
     justify-items: end;
     font-size: 7vw;
-    margin-right: 60px;
     row-gap: 10%;
 }
+
 .nav>li:hover:before {
     color:#49fc03 ;
     content: ">";
@@ -85,14 +85,6 @@ a:hover {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     opacity: 1;
-}
-
-#about-nav {
-
-}
-
-#contact-nav {
-
 }
 
 /*ANIMATION FOR TERMINAL BLINK EFFECT*/
@@ -115,63 +107,26 @@ a:hover {
    }
 }
 
-/*CODE FOR WORK SECTION*/
+/*CODE FOR SUB-SECTIONS GRID*/
 
-.grid-container-work{
-    font-family: 'Radiotechnika';
+.grid-container-section{
     display: grid;
-    grid-template-columns: auto;
-    grid-row: 50% 50%;
-    font-size: 5vw;
-    color: #49fc03;
-    text-shadow: 2px 3px 13px #53a330;
-    animation-name:terminal-blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
     opacity: 1;
     width: 98vw;
     height:98vh;
-    scroll-snap-align: start;
-    margin-top: 3%;
-
-}
-
-/*CODE FOR ABOUT SECTION*/
-
-.grid-container-about {
-    font-family: 'Radiotechnika';
-    display: grid;
-    grid-template-columns: auto;
-    grid-row: 50% 50%;
-    font-size: 5vw;
-    color: #49fc03;
-    text-shadow: 2px 3px 13px #53a330;
-    animation-name:terminal-blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    opacity: 1;
-    width: 98vw;
-    height:98vh;
-    scroll-snap-align: start;
     margin-top: 3%;
 }
 
-/*CODE FOR CONTACT SECTION*/
-
-.grid-container-contact {
+.heading {
     font-family: 'Radiotechnika';
     display: grid;
     grid-template-columns: auto;
-    grid-row: 50% 50%;
     font-size: 5vw;
     color: #49fc03;
     text-shadow: 2px 3px 13px #53a330;
-    animation-name:terminal-blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    opacity: 1;
-    width: 98vw;
-    height:98vh;
     scroll-snap-align: start;
-    margin-top: 3%;
+}
+
+#contact {
+    margin-bottom: 5%;
 }
