@@ -1,13 +1,29 @@
 //TYPING ANIMATION FOR TEXT
 
 function typeEffect(element, speed) {
-	var text = element.innerText;
+  const lines = ["LOREN BAKO {", "fullstack engineer", "};"];
+  let lineToUse = 0;
+
 	element.innerText = "";
 	
-	var i = 0;
+	let i = 0;
 	var timer = setInterval(function() {
-    if (i < text.length) {
-      element.append(text.charAt(i));
+    if(lineToUse > lines.length - 1) {
+      return clearInterval(timer);
+    }
+
+    // Go to next line
+    if( i >= lines[lineToUse].length) {
+      element.innerText = element.innerText + '\n';
+      if(lineToUse === 0) {element.appendChild(document.createTextNode( '\u00A0\u00A0' ));}
+      lineToUse++;
+      i = 0;
+      return;
+    }
+
+    if (i < lines[lineToUse].length) {
+      element.append(lines[lineToUse].charAt(i));
+      
       i++;
     } else {
       clearInterval(timer);
@@ -16,7 +32,8 @@ function typeEffect(element, speed) {
 }
 
 var speed = 40;
-var h1 = document.querySelector('h1')
-var delay = h1.innerHTML.length * speed + speed;
+var intro = document.querySelector('#intro')
+var delay = intro.innerHTML.length * speed + speed;
 
-typeEffect(h1, speed);
+typeEffect(intro, speed);
+console.log(intro);
