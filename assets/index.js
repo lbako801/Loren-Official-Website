@@ -36,4 +36,3 @@ var intro = document.querySelector('#intro')
 var delay = intro.innerHTML.length * speed + speed;
 
 typeEffect(intro, speed);
-console.log(intro);
