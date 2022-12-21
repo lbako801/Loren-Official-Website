@@ -23,11 +23,6 @@
 
 /*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
 
-@font-face {
-    font-family: 'Radiotechnika';
-    src: url('../../assets/fonts/Radiotechnika-2.0.otf') format('otf');
-}
-
 .grid-container-landing {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -47,7 +42,7 @@ a:hover {
 }
 
 .left-landing {
-    font-family: 'Radiotechnika';
+    font-family: 'Orbitron';
     color: #49fc03;
     font-size: 2.5vw;
     text-shadow: 2px 3px 12px #53a330;   
@@ -58,7 +53,7 @@ a:hover {
 }
 
 .right-landing {
-   font-family: 'Radiotechnika';
+   font-family: 'Orbitron';
    color: #c1c2c0; 
    list-style-type: none;
    display: grid;
@@ -118,7 +113,7 @@ a:hover {
 }
 
 .heading {
-    font-family: 'Radiotechnika';
+    font-family: 'Orbitron';
     display: grid;
     grid-template-columns: auto;
     font-size: 5vw;
