@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: 'Radiotechnika';
-    src: url('assets/css/fonts/RadiotechnikaRegular.ttf') format('ttf');
+    src: url ('assets/css/fonts/RadiotechnikaRegular.ttf') format('ttf');
 }
 
 .grid-container-landing {
