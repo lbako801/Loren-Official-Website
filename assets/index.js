@@ -36,3 +36,5 @@ var intro = document.querySelector('#intro')
 var delay = intro.innerHTML.length * speed + speed;
 
 typeEffect(intro, speed);
+
+console.log("Aren't you a curious one...");

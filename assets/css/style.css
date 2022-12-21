@@ -122,6 +122,12 @@ a:hover {
     scroll-snap-align: start;
 }
 
-#contact {
-    margin-bottom: 5%;
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
 }
