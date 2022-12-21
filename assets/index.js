@@ -1,7 +1,7 @@
 //TYPING ANIMATION FOR TEXT
 
 function typeEffect(element, speed) {
-  const lines = ["LOREN BAKO {", "fullstack engineer", "};"];
+  const lines = ["Loren Bako {", "FULLSTACK ENGINEER", "};"];
   let lineToUse = 0;
 
 	element.innerText = "";
