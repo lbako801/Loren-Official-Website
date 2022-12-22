@@ -1,6 +1,6 @@
 * {
     background-color: #040404;   
-    scroll-snap-type: y mandatory; 
+    /* scroll-snap-type: y mandatory;  */
 }
 
 /*STYLING FOR SCROLLBAR*/
@@ -21,113 +21,136 @@
     border-radius:5px;
 }
 
-/*IMPORTING LOCALLY HOSTED FONT TO WEBSITE*/
+@media only screen and (min-width:1280px) {
+    a {
+        text-decoration: none !important;
+        color:#c1c2c0;
+    }
 
-.grid-container-landing {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    width: 98vw;
-    height: 98vh;
-    scroll-snap-align: start;
-}
+    a:hover:before {
+        color:#49fc03 ;
+        content: ">";
+    }
 
-a {
-    text-decoration: none !important;
-    color:#c1c2c0;
-}
+    a:hover {
+        color: #49fc03;
+        text-shadow: 2px 3px 13px #53a330;
+        animation-name:terminal-blink;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+    }
 
-a:hover {
-    color: #49fc03;
-}
+    .container-landing {
+        display: flex;
+        flex-direction: row;
+        height:100vh;
+    }
+    
+    .left-landing {
+        font-family: 'orbitron';
+        color: #49fc03;
+        width: 50%;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+    
+    .right-landing {
+        font-family: 'orbitron';
+        width: 50%;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 110px;
+    }
+    .heading {
+        font-family: 'orbitron';
+        color:#49fc03;
+        font-size: 75px;
+    }
 
-.left-landing {
-    font-family: 'Orbitron';
-    color: #49fc03;
-    font-size: 2.5vw;
-    text-shadow: 2px 3px 12px #53a330;   
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    margin-left: 3rem;
-}
+    .container-work {
+        display: flex;
+        width: 100%;
+        /* height: 100vh; */
+    }
 
-.right-landing {
-   font-family: 'Orbitron';
-   color: #c1c2c0; 
-   list-style-type: none;
-   display: grid;
-   justify-content: end;
-   align-content: center;
-}
+    .about-content {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 100vh;
+        color: #49fc03;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:700;
+        
+    }
 
-.nav {
-    display: grid;
-    justify-items: end;
-    font-size: 7vw;
-    row-gap: 10%;
-}
+    #about-para {
+        color: #c1c1c0;
+        width: 50%;
+        justify-items: start;
+        font-size: 20px;
+    }
 
-.nav>li:hover:before {
-    color:#49fc03 ;
-    content: ">";
-}
+    #skills {
+        font-family: 'orbitron';
+        color: #49fc03;
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+    }
 
-.nav>li:hover {
-    color: #49fc03;
-    text-shadow: 2px 3px 13px #53a330;
-    animation-name:terminal-blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    opacity: 1;
-}
 
-/*ANIMATION FOR TERMINAL BLINK EFFECT*/
+    #skills>li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+        color: #c1c2c0;
+    }
 
-@keyframes terminal-blink {
-    0% {
-    opacity: 1;
-   }
-   10% {
-    opacity: 0.9;
-   }
-   20% {
-    opacity: 0.8;
-   }
-   30% {
-    opacity: 0.7;
-   }
-   40% {
-    opacity: 0.6;
-   }
-}
+    .container-contact {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+    }
 
-/*CODE FOR SUB-SECTIONS GRID*/
+    .contact-links {
+        font-family: 'orbitron';
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 70px;
+    }
+    .contact-links>a{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+       }
+       10% {
+        opacity: 0.9;
+       }
+       20% {
+        opacity: 0.8;
+       }
+       30% {
+        opacity: 0.7;
+       }
+       40% {
+        opacity: 0.6;
+       }
+    }
 
-.grid-container-section{
-    display: grid;
-    opacity: 1;
-    width: 98vw;
-    height:98vh;
-    margin-top: 3%;
-}
-
-.heading {
-    font-family: 'Orbitron';
-    display: grid;
-    grid-template-columns: auto;
-    font-size: 5vw;
-    color: #49fc03;
-    text-shadow: 2px 3px 13px #53a330;
-    scroll-snap-align: start;
-}
-
-.contact-links {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    font-size: 30px;
+    
 }

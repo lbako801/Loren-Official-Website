@@ -31,7 +31,7 @@ function typeEffect(element, speed) {
   }, speed);
 }
 
-var speed = 40;
+var speed = 25;
 var intro = document.querySelector('#intro')
 var delay = intro.innerHTML.length * speed + speed;
 
