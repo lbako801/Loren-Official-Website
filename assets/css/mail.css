@@ -54,13 +54,13 @@ input {
     text-align: center;
     border-radius: 10px;
     box-sizing: border-box;
-
 }
 
 input:hover {
     border: #49fc03 solid;
     box-shadow: 2px 3px 13px #53a330;
 }
+
 textarea {
     display: flex;
     flex-direction: row;
