@@ -29,7 +29,7 @@ function typeEffect(element, speed) {
       clearInterval(timer);
     }
   }, speed);
-}
+};
 
 var speed = 25;
 var intro = document.querySelector('#intro')

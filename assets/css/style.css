@@ -41,6 +41,11 @@
         opacity: 1;
     }
 
+    .home-redirect {
+        font-family: 'orbitron';
+        color: #49fc03;
+        text-align: end;
+    }
     .container-landing {
         display: flex;
         flex-direction: row;

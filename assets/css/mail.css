@@ -22,6 +22,7 @@ body{
 label {
     text-align: center;
 }
+
 button {
     background-color: #49fc03;
     font-family: 'orbitron';
@@ -29,10 +30,15 @@ button {
     height: 50px;
     font-size: 30px;
     border-radius: 20px;
+}
+
+button:hover {
     animation-name:terminal-blink;
     animation-duration: 0.75s;
     animation-iteration-count: infinite;
     opacity: 1;
+    cursor: pointer;
+    box-shadow: 2px 3px 13px #53a330;
 }
 
 input {
@@ -47,8 +53,14 @@ input {
     margin-bottom: 20px;
     text-align: center;
     border-radius: 10px;
+    box-sizing: border-box;
+
 }
 
+input:hover {
+    border: #49fc03 solid;
+    box-shadow: 2px 3px 13px #53a330;
+}
 textarea {
     display: flex;
     flex-direction: row;
@@ -60,6 +72,13 @@ textarea {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+textarea:hover {
+    border: solid #49fc03;
+    box-shadow: 2px 3px 13px #53a330;
 }
 
 textarea::placeholder{
@@ -67,7 +86,7 @@ textarea::placeholder{
     text-justify: center;
 }
 
- @keyframes terminal-blink {
+@keyframes terminal-blink {
     0% {
      opacity: 1;
      }
@@ -83,4 +102,4 @@ textarea::placeholder{
     40% {
       opacity: 0.6;
      }
-    }
+}
