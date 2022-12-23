@@ -191,7 +191,11 @@
         margin-bottom: 20px;
         justify-content: left;
     }
-
+    .contact-form {
+        color: #49fc03;
+        display: flex;
+        flex-direction: co;
+    }
     #contact-info {
         color: #49fc03;
     }
