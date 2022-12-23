@@ -121,7 +121,6 @@
         justify-items: start;
         font-size: 20px;
         border: solid #49fc03;
-        box-shadow: 2px 3px 13px #53a330;
         border-radius: 20px;
         width: 500px;
         height: 60%;
@@ -134,10 +133,14 @@
         width: 200px;
         height: 200px;
         float: left;
-        /* border: solid #000000 6px; */
         border-radius: 10px;
         margin-right: 20px;
         margin-bottom: 20px;
+    }
+
+    #about-para:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
     }
 
     #skills {
@@ -146,11 +149,15 @@
         flex-direction: column;
         display: flex;
         border: solid #49fc03;
-        box-shadow: 2px 3px 13px #53a330;
         width: 500px;
         height: 60%;
         border-radius: 20px;
         padding: 20px 20px 20px 20px;
+    }
+
+    #skills:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
     }
 
     #skills>h2{

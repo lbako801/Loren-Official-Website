@@ -15,17 +15,21 @@
     <title>Send me an e-mail!</title>
 </head>
 <body>
-    <form action="https://formspree.io/fmwkjewvr"method="POST"class="contact-form">
+    <!-- <div id="error-mail">ERROR - Please fill out email section!</div>
+    <div id="error-message-box">ERROR - Please fill out message box!</div>
+    <div id="error-form">ERROR - Please finish form!</div> -->
+    <form   action="https://formspree.io/f/xvonpvkb" method="POST"class="contact-form" id="contact-form-id">
         <label>
          Your email \
-            <input type="email" name="email" placeholder="---">
+            <input type="email" name="email" placeholder="---" id="email">
         </label>
        
         <label>
-         Your message\ <textarea name="message" placeholder="-------"></textarea>
+         Your message\ <textarea name="message" placeholder="-------" id="message-box"></textarea>
         </label>
           
         <button type="submit">Send</button>
      </form>
 </body>
+<script src ="assets/index.js"></script>
 </html>
