@@ -11,7 +11,7 @@
   
   /*SCROLL TRACK*/
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #2E2E2E;
+    box-shadow: inset 0 0 5px #131313;
     border-radius: 10px;
   }
   
@@ -82,9 +82,15 @@
         scroll-snap-align: start;
     }
 
+    .work-content {
+        font-family: 'orbitron';
+        color: #49fc03;
+    }
+
     .container-about {
         scroll-snap-align: start;
     }
+
     .about-content {
         display: flex;
         align-items: center;
@@ -94,15 +100,13 @@
         height: 100vh;
         justify-content: space-around;
         align-content: center;
-        
-
     }
 
     #coupler {
         font-size: 300px;
         text-shadow: 2px 3px 13px #53a330;
         animation-name:terminal-blink;
-        animation-duration: 1s;
+        animation-duration: 0.75s;
         animation-iteration-count: infinite;
         opacity: 1;
     }
@@ -162,6 +166,7 @@
     #divider {
         color: #49fc03;
     }
+    
     .container-contact {
         display: flex;
         flex-direction: column;
