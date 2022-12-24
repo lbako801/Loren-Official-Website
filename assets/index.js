@@ -32,7 +32,7 @@ function typeEffect(element, speed) {
 };
 
 var speed = 25;
-var intro = document.querySelector('#intro')
+var intro = document.querySelector('#intro');
 var delay = intro.innerHTML.length * speed + speed;
 
 typeEffect(intro, speed);
@@ -65,3 +65,14 @@ console.log("Aren't you a curious one...");
 //     e.preventDefault;
 //   }
 // });
+
+// PLAY CLICK AUDIO
+
+// var play = document.getElementsByClassName('click-audio');
+
+// function playClick() {
+//   let audio = New Audio('../assets/sounds/mixkit-single-classic-click-1116.wav');
+//   audio.play()
+// };
+
+// play.addEventListener('click', playClick);
