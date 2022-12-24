@@ -2,104 +2,530 @@
     background-color: #131313;
 }
 
-body{
-    font-family: 'orbitron';
-    color:#49fc03;
-    width: 100vw;
-    height: 100vh;
+@media only screen and (max-width: 300px){
+    
+    body {
+        font-family: 'orbitron';
+        color:#49fc03;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 20px;
+    } 
+
+    label {
+        text-align: center;
+    }
+
+    button {
+        background-color: #49fc03;
+        font-family: 'orbitron';
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        animation-name:terminal-blink;
+        animation-duration: 0.75s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+        cursor: pointer;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    input {
+        background-color: #c1c2c0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 250px;
+        height: 40px;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        height: 300px;
+        background-color: #c1c2c0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    textarea:hover {
+        border: solid #49fc03;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea::placeholder{
+        text-align: center;
+        text-justify: center;
+    }
+
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+        }
+        10% {
+        opacity: 0.9;
+        }
+        20% {
+        opacity: 0.8;
+        }
+        30% {
+        opacity: 0.7;
+        }
+        40% {
+        opacity: 0.6;
+        }
+    }
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    font-size: 50px;
-} 
 
-label {
-    text-align: center;
+
+@media only screen and (max-width: 450px){
+    
+    body {
+        font-family: 'orbitron';
+        color:#49fc03;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 30px;
+    } 
+
+    label {
+        text-align: center;
+    }
+
+    button {
+        background-color: #49fc03;
+        font-family: 'orbitron';
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        animation-name:terminal-blink;
+        animation-duration: 0.75s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+        cursor: pointer;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    input {
+        background-color: #c1c2c0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 300px;
+        height: 40px;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 300px;
+        background-color: #c1c2c0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    textarea:hover {
+        border: solid #49fc03;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea::placeholder{
+        text-align: center;
+        text-justify: center;
+    }
+
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+        }
+        10% {
+        opacity: 0.9;
+        }
+        20% {
+        opacity: 0.8;
+        }
+        30% {
+        opacity: 0.7;
+        }
+        40% {
+        opacity: 0.6;
+        }
+    }
 }
 
-button {
-    background-color: #49fc03;
-    font-family: 'orbitron';
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-    border-radius: 20px;
+
+@media only screen and (max-width:799px) {
+    
+    body{
+        font-family: 'orbitron';
+        color:#49fc03;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 50px;
+    } 
+
+    label {
+        text-align: center;
+    }
+
+    button {
+        background-color: #49fc03;
+        font-family: 'orbitron';
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        animation-name:terminal-blink;
+        animation-duration: 0.75s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+        cursor: pointer;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    input {
+        background-color: #c1c2c0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 450px;
+        height: 40px;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        height: 300px;
+        background-color: #c1c2c0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    textarea:hover {
+        border: solid #49fc03;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea::placeholder{
+        text-align: center;
+        text-justify: center;
+    }
+
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+        }
+        10% {
+        opacity: 0.9;
+        }
+        20% {
+        opacity: 0.8;
+        }
+        30% {
+        opacity: 0.7;
+        }
+        40% {
+        opacity: 0.6;
+        }
+    }
 }
 
-button:hover {
-    animation-name:terminal-blink;
-    animation-duration: 0.75s;
-    animation-iteration-count: infinite;
-    opacity: 1;
-    cursor: pointer;
-    box-shadow: 2px 3px 13px #53a330;
+@media only screen and (max-width: 800px) {
+
+    body{
+        font-family: 'orbitron';
+        color:#49fc03;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 50px;
+    } 
+
+    label {
+        text-align: center;
+    }
+
+    button {
+        background-color: #49fc03;
+        font-family: 'orbitron';
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        animation-name:terminal-blink;
+        animation-duration: 0.75s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+        cursor: pointer;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    input {
+        background-color: #c1c2c0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 700px;
+        height: 40px;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        height: 300px;
+        background-color: #c1c2c0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    textarea:hover {
+        border: solid #49fc03;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea::placeholder{
+        text-align: center;
+        text-justify: center;
+    }
+
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+        }
+        10% {
+        opacity: 0.9;
+        }
+        20% {
+        opacity: 0.8;
+        }
+        30% {
+        opacity: 0.7;
+        }
+        40% {
+        opacity: 0.6;
+        }
+    }
 }
 
-input {
-    background-color: #c1c2c0;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 700px;
-    height: 40px;
-    font-size: large;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
+@media only screen and (max-width:3000px) {
 
-input:hover {
-    border: #49fc03 solid;
-    box-shadow: 2px 3px 13px #53a330;
-}
+    body{
+        font-family: 'orbitron';
+        color:#49fc03;
+        width: 100vw;
+        height: 100vh;
+    }
 
-textarea {
-    display: flex;
-    flex-direction: row;
-    width: 700px;
-    height: 300px;
-    background-color: #c1c2c0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-sizing: border-box;
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 50px;
+    } 
 
-}
+    label {
+        text-align: center;
+    }
 
-textarea:hover {
-    border: solid #49fc03;
-    box-shadow: 2px 3px 13px #53a330;
-}
+    button {
+        background-color: #49fc03;
+        font-family: 'orbitron';
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
 
-textarea::placeholder{
-    text-align: center;
-    text-justify: center;
-}
+    button:hover {
+        animation-name:terminal-blink;
+        animation-duration: 0.75s;
+        animation-iteration-count: infinite;
+        opacity: 1;
+        cursor: pointer;
+        box-shadow: 2px 3px 13px #53a330;
+    }
 
-@keyframes terminal-blink {
-    0% {
-     opacity: 1;
-     }
-    10% {
-      opacity: 0.9;
-     }
-    20% {
-      opacity: 0.8;
-     }
-    30% {
-      opacity: 0.7;
-     }
-    40% {
-      opacity: 0.6;
-     }
+    input {
+        background-color: #c1c2c0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 700px;
+        height: 40px;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border: #49fc03 solid;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        height: 300px;
+        background-color: #c1c2c0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    textarea:hover {
+        border: solid #49fc03;
+        box-shadow: 2px 3px 13px #53a330;
+    }
+
+    textarea::placeholder{
+        text-align: center;
+        text-justify: center;
+    }
+
+    @keyframes terminal-blink {
+        0% {
+        opacity: 1;
+        }
+        10% {
+        opacity: 0.9;
+        }
+        20% {
+        opacity: 0.8;
+        }
+        30% {
+        opacity: 0.7;
+        }
+        40% {
+        opacity: 0.6;
+        }
+    }
 }
