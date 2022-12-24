@@ -111,35 +111,63 @@
 
     .work-card:hover {
         box-shadow: 2px 3px 13px #53a330;
-        width: 600px;
-        height: 700px;
+        border-radius: 50px;
+        height: 650px;
+        width: 550px;
     }
 
-    #date-base {
+    .work-card {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    #date-base>h1 {
+    .work-card>h1 {
         font-family: 'orbitron';
         color: #49fc03;
         justify-items: center;
         font-size: 30px;
         margin-top: 10px;
+        margin-bottom: 30px;
     }
-
-    #date-base>p{
+    .work-card>h2 {
+        font-family: 'orbitron';
+        color: #49fc03;
+        margin-bottom: 30px;
+    }
+    .work-card>p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #c1c2c0;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 30px;
     }
 
-    #date-base>ul {
+    .work-card>ul {
         font-family: 'orbitron';
         color:#49fc03;
         justify-content: center;
         align-items:center;
+        margin-bottom: 30px;
+    }
+
+    .work-card>li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .work-card>img {
+        width: 450px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .work-card>a{
+        font-family: 'orbitron';
+        display: flex;
+        flex-direction: row;
     }
 
     .container-about {
