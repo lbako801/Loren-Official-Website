@@ -71,8 +71,8 @@ console.log("Aren't you a curious one...");
 // var play = document.getElementsByClassName('click-audio');
 
 // function playClick() {
-//   let audio = New Audio('../assets/sounds/mixkit-single-classic-click-1116.wav');
-//   audio.play()
+//   let audio = New Audio ('../assets/sounds/mixkit-single-classic-click-1116.wav');
+//   audio.play();
 // };
 
-// play.addEventListener('click', playClick);
+// play.addEventListener('click', playClick());
