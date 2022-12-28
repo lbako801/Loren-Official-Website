@@ -215,8 +215,8 @@
         font-size: 20px;
         border: solid #49fc03;
         border-radius: 20px;
-        width: 500px;
-        height: 550px;
+        width:400px;
+        height: 575px;
         padding: 20px;
         font-family: 'Source Code Pro', monospace;
         line-height: 30px;
@@ -227,14 +227,6 @@
     #about-para>span {
         color: #49fc03;
         font-family: 'Source Code Pro', monospace;
-    }
-
-    #about-para>img {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        margin-right: 20px;
-        margin-bottom: 20px;
     }
 
     #about-para:hover {
@@ -250,12 +242,13 @@
         justify-content: center;
         align-items: center;
         border: solid #49fc03;
-        width: 500px;
-        height: 550px;
+        width: 400px;
+        height: 575px;
         border-radius: 20px;
         padding: 20px 20px 20px 20px;
         margin-top: 30px;
         margin-bottom: 30px;
+        font-size: 2vw;
     }
 
     #skills:hover {
@@ -265,7 +258,7 @@
 
     #skills>h2{
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #skills>li{
@@ -274,7 +267,7 @@
         margin-right: 15px;
         display: flex;
         justify-content: start;
-        font-size: 30px;
+        font-size: 20px;
         color: #c1c2c0;
     }
 
@@ -293,7 +286,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 3vw;
+        font-size: 3.5vw;
         align-items: center;
         justify-content: center;
         margin-bottom: 60px;
