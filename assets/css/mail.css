@@ -15,7 +15,7 @@
         justify-content: center;
         width: 100vw;
         height: 100vh;
-        font-size: 50px;
+        font-size: 30px;
     } 
 
     label {
@@ -45,7 +45,7 @@
         display: flex;
         flex-direction: row;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        width: 25vw;
+        width: 300px;
         height: 40px;
         font-size: large;
         margin-top: 20px;
@@ -63,7 +63,7 @@
     textarea {
         display: flex;
         flex-direction: row;
-        width: 25vw;
+        width: 300px;
         height: 300px;
         background-color: #c1c2c0;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
