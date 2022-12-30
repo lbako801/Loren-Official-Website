@@ -46,6 +46,7 @@
     #work-links {
         padding: 10px;
     }
+
     .container-landing {
         display: flex;
         flex-direction: row;
@@ -120,7 +121,7 @@
         box-sizing: border-box;
     }
 
-    .work-img:hover {
+    .work-card:hover img {
         display: none;
     }
 
