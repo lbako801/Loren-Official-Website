@@ -75,7 +75,7 @@
     .heading {
         font-family: 'orbitron';
         color:#49fc03;
-        font-size: 4vw;
+        font-size: 3.5vw;
         margin-left: 2vw;
     }
 
@@ -118,7 +118,6 @@
         position: absolute;
         border: #49fc03 solid;
         box-sizing: border-box;
-        
     }
 
     .work-img:hover {
@@ -242,7 +241,6 @@
         margin-bottom: 30px;
         font-size: 2vw;
     }
-
  
     #skills:hover {
         border: #49fc03 solid;
@@ -279,7 +277,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 3.5vw;
+        font-size: 2.5vw;
         align-items: center;
         justify-content: center;
         margin-bottom: 60px;
@@ -290,11 +288,13 @@
         margin-bottom: 30px;
         justify-content: left;
     }
+
     .contact-form {
         color: #49fc03;
         display: flex;
         flex-direction: co;
     }
+
     #contact-info {
         color: #49fc03;
     }
