@@ -123,7 +123,6 @@
 
     .work-img:hover {
         display: none;
-        z-index: -1;
     }
 
     .work-card:hover {
@@ -200,31 +199,6 @@
         margin-bottom: 60px;
         
     }
-
-    #coupler {
-        font-size: 300px;
-        text-shadow: 2px 3px 13px #53a330;
-        animation-name:terminal-blink;
-        animation-duration: 0.75s;
-        animation-iteration-count: infinite;
-        opacity: 1;
-    }
-
-    /* #coupler:hover {
-        animation-name: spin;
-        animation-duration: 500ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear; 
-    }
-
-    @keyframes spin {
-        from {
-            transform:rotate(0deg);
-        }
-        to {
-            transform:rotate(360deg);
-        }
-    } */
 
     #about-para {
         color: #c1c1c0;
